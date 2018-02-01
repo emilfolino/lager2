@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+.title {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2.4rem;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.container {
+    padding: 1rem;
+    margin-bottom: 3.2rem;
+    margin-top: 2rem;
+}
+
+.container p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background: white;
+    display: flex;
+    flex-flow: row || nowrap;
+    justify-content: space-evenly;
+}
+
+.bottom-nav a {
+    text-align: center;
+    color: #666;
+}
+
+.bottom-nav a.active {
+    color: #4e75ba;
+}
+
+.bottom-nav i {
+    display: block;
+}
+
+.bottom-nav span {
+    font-size: 0.7rem;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #ddd;
+    width: 100%;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+.top-nav span {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.8rem;
+    color: #4e75ba;
+}
+
+.top-nav span i {
+    float:left;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.inventory-list-item {
+    cursor: pointer;
+    color: #4e75ba;
+    display: block;
+    line-height: 1.8;
+    padding: 0.2rem 0.4rem;
+}
+
+.inventory-list-item:nth-of-type(2n) {
+    background-color: #ccc;
+}
+
+.inventory-list-item span {
+    float:right;
+}

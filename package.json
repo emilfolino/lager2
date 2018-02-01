@@ -1,0 +1,15 @@
+{
+  "name": "lager2",
+  "version": "1.0.0",
+  "description": "Lager app with plock lista",
+  "main": "bin/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -d --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}
